@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+body {
+  font-family: 'Prompt';
+  background-image: url("assets/images/laura-ghise-LzPY4Pj26gY-unsplash.jpg");
+  background-size: cover;
+  font-weight: 100;
+}
+
+.event {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.event h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgba(109, 109, 109, 0.377);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+.content .days {
+  width: 22%;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.content .days .number {
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.content .days a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: #a5a5a5;
+}
+
+.content .hours {
+  width: 22%;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.content .hours .number {
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.content .hours a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: #a5a5a5;
+}
+
+.content .minutes {
+  width: 22%;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.content .minutes .number {
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.content .minutes a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: #a5a5a5;
+}
+
+.content .seconds {
+  width: 22%;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.content .seconds .number {
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.content .seconds a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: #a5a5a5;
+}
+
+.event-end {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.event-set {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 0em;
+  position: relative;
+  color: black;
+  padding: 1em;
+}
+
+.event-set form label {
+  width: 50px;
+  display: inline-block;
+}
+
+.event-set input {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.event-set .buttons {
+  width: 43%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.event-set .buttons #Stopbtn {
+  width: 50%;
+  font-family: 'Prompt';
+}
+
+.event-set .buttons #Startbtn {
+  width: 50%;
+  font-family: 'Prompt';
+}
+
+.event-set button {
+  border: none;
+}
+
+.event-set button:disabled {
+  background-color: grey;
+  color: #cacaca;
+}
+/*# sourceMappingURL=main.css.map */
